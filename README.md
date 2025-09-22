@@ -7,9 +7,14 @@
 - App runs on: `http://127.0.0.1:7775`
 
 ## Build Instructions
-Run this command inside the project root (arahan_kyle_site/) on Windows Powershell:
+ Run this command inside the project root (arahan_kyle_site/) on Windows Powershell:
 
-`docker build -t arahan_kyle_coding_assignment11:latest .`
+`docker build -t arahan_kyle_coding_assignment11:latest.`
+
+Note: Make sure you find this file on Powershell using:
+`cd C:\Users\kylej\arahan_kyle_site\`
+
+
 
 2. Run the Container command here:
 `docker run --name arahan_kyle_coding_assignment11 -p 7775:3000 -d arahan_kyle_coding_assignment11:latest`
