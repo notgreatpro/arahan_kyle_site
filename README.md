@@ -29,15 +29,15 @@ Once the browser is loaded in, you should be able to see:
 "Codin 1 website"
 
 # Stopping / removing the container commands
-# stop container
+## stop container
 `docker stop arahan_kyle_coding_assignment11`
 
-# start container again
+## start container again
 `docker start arahan_kyle_coding_assignment11`
 
-# remove container
+## remove container
 `docker rm arahan_kyle_coding_assignment11`
 
 
-# Logs (helpful for debugging):
+## Logs (helpful for debugging):
 `docker logs -f arahan_kyle_coding_assignment11`
