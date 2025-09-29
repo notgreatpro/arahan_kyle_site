@@ -20,4 +20,4 @@ ENV PORT=3000
 EXPOSE 3000
 
 # Start the development server
-CMD ["npm", "start"]
+CMD ["npm", "start", "--", "--port", "7775", "--host", "0.0.0.0"]
